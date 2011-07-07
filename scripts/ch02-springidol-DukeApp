@@ -1,0 +1,2 @@
+#!/bin/sh
+mvn -q exec:java -Dexec.mainClass="com.springinaction.chapter02.springidol.DukeApp"
