@@ -1,11 +1,6 @@
 = Spring in Action, Second Edition =
 
-The source code from the book about the Spring Framework version 2,
-by Craig Walls, with my own additions and tests.
-
-Dependencies are downloaded with Maven.
-
-Just started on 7 July 2011
+The source code from the book about the Spring Framework version 2, by Craig Walls, with my own additions and tests. Dependencies are downloaded with Maven. I've just started on 7 July 2011.
 
 To run the examples:
 
