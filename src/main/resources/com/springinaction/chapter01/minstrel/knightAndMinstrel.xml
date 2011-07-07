@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+    
+    <!-- Defines a quest -->
+    <bean id="quest" class="com.springinaction.chapter01.knight.HolyGrailQuest"/>
+    
+    <!-- Defines a minstrel -->
+    <bean id="minstrel" class="com.springinaction.chapter01.minstrel.Minstrel"/>
+    
+    <aop:config>
+        <!-- Creates minstrel aspect -->
+        <aop:aspect ref="minstrel">
+            <!-- Creates pointcut to wrap embarkOnQuest() -->
+            <aop:pointcut id="questPointcut" expression="execution(* *.embarkOnQuest(..)) and target(bean))"/>
+            
+            <!-- Weaves in ministrel before -->
+            <aop:before method="singBefore" pointcut-ref="questPointcut" arg-names="bean"/>
+            
+            <!-- Weaves in ministrel after -->
+            <aop:after method="singAfter" pointcut-ref="questPointcut" arg-names="bean"/>
+        </aop:aspect>
+    </aop:config>
+    
+    <!-- Defines a knight -->
+    <bean id="knight" class="com.springinaction.chapter01.knight.KnightOfTheRoundTable">
+    
+        <!-- Set the knight's name -->
+        <constructor-arg value="Bedivere"/>
+        
+        <!-- Gives the knight a quest -->
+        <property name="quest" ref="quest"/>
+        
+    </bean>
+
+</beans>    
