@@ -9,5 +9,6 @@ $ mvn compile
 
 $ scripts/ch01-hello-HelloApp
 $ scripts/ch01-knight-KnightApp
+$ scripts/ch01-mistrel-KnightWithMinstrelApp
 </pre>
 

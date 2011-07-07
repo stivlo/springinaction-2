@@ -4,4 +4,6 @@ public interface Knight {
 
     Object embarkOnQuest() throws QuestFailedException;
 
+    String getName();
+
 }
