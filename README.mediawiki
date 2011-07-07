@@ -5,6 +5,9 @@ The source code from the book about the Spring Framework version 2, by Craig Wal
 To run the examples:
 
 <pre style="color:blue">
+$ mvn compile
+
 $ scripts/ch01-hello-HelloApp
+$ scripts/ch01-knight-KnightApp
 </pre>
 
