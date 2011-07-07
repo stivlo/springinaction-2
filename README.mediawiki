@@ -15,5 +15,7 @@ $ scripts/ch01-mistrel-KnightAndMinstrelApp    #Aspect oriented programming
 $ scripts/ch02-springidol-DukeApp              #Simple Bean Creation
 $ scripts/ch02-springidol-Duke15App            #Bean Creation with constructor args
 $ scripts/ch02-springidol-PoeticJugglerApp     #Bean Creation with constructor refs
+$ scripts/ch02-springidol-KennyApp             #Bean Creation with setter injection
+$ scripts/ch02-springidol-KennyPianoApp        #Same Bean playing a different instrument
 </pre>
 
