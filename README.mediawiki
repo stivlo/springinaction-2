@@ -5,4 +5,11 @@ by Craig Walls, with my own additions and tests.
 
 Dependencies are downloaded with Maven.
 
-Just started with hello world today 7 July 2011
+Just started on 7 July 2011
+
+To run the examples:
+
+<syntaxhighlight lang="bash">
+$ scripts/ch01-hello-HelloApp
+</syntaxhighlight>
+
