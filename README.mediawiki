@@ -9,7 +9,7 @@ Just started on 7 July 2011
 
 To run the examples:
 
-<syntaxhighlight lang="bash">
+<pre style="color:blue">
 $ scripts/ch01-hello-HelloApp
-</syntaxhighlight>
+</pre>
 
