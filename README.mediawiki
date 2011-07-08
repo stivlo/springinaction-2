@@ -1,6 +1,9 @@
 = Spring in Action, Second Edition =
 
-The source code from the book about the Spring Framework version 2, by Craig Walls, with my own additions and tests. Dependencies are downloaded with Maven. 
+The source code from the book about the Spring Framework version 2, by Craig Walls, with my own additions and tests.
+Original source code can be found at http://www.manning.com/walls3/ -- Here there are actually more self contained
+examples than in the original source code, since I'd like to really understand how this stuff works, even if it slow
+down a lot my reading pace.  Dependencies are downloaded with Maven. 
 
 To run the examples:
 
@@ -22,4 +25,4 @@ $ scripts/ch02-springidol-TwoSaxophonesApp        # With inner beans Duke and Ke
 $ scripts/ch02-springidol-HankApp                 # Hank, one man band, showing collection wiring
 </pre>
 
-My bookmark: ch02 page 52
+My bookmark: ch02 page 54
