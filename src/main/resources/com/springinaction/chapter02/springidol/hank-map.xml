@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+    
+    <bean id="guitar" class="com.springinaction.chapter02.springidol.Guitar"/>
+    <bean id="cymbal" class="com.springinaction.chapter02.springidol.Cymbal"/>
+    <bean id="harmonica" class="com.springinaction.chapter02.springidol.Harmonica"/>
+      
+    <bean id="hank" class="com.springinaction.chapter02.springidol.OneManBandMap">
+        <property name="instruments">
+            <map>
+                <entry key="GUITAR" value-ref="guitar"/>
+                <entry key="CYMBAL" value-ref="cymbal"/>
+                <entry key="HARMONICA" value-ref="harmonica"/>
+            </map>
+        </property>
+    </bean>
+    
+</beans>
