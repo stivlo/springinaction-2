@@ -24,6 +24,7 @@ $ scripts/ch02-springidol-KennySharingWithDukeApp # Showing that there is only o
 $ scripts/ch02-springidol-TwoSaxophonesApp        # With inner beans Duke and Kenny have a private Saxophone
 $ scripts/ch02-springidol-HankApp                 # Hank, one man band, showing collection wiring
 $ scripts/ch02-springidol-HankMapApp              # Hank with a Map wiring
+$ scripts/ch02-springidol-HankPropertiesApp       # Hank with Properties wiring
 </pre>
 
 My bookmark: ch02 page 56
