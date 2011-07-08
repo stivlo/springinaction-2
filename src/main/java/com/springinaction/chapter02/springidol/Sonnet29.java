@@ -13,6 +13,7 @@ public class Sonnet29 implements Poem {
             "That then I scorn to change my state with kings." };
 
     public Sonnet29() {
+        //nothing to do!
     }
 
     @Override
@@ -21,4 +22,5 @@ public class Sonnet29 implements Poem {
             System.out.println(LINES[i]);
         }
     }
+
 }

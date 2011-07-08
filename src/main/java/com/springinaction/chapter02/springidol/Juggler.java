@@ -5,6 +5,7 @@ public class Juggler implements Performer {
     private int beanBags = 3;
 
     public Juggler() {
+        //nothing to do!
     }
 
     public Juggler(int beanBags) {

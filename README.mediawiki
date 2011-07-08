@@ -25,6 +25,7 @@ $ scripts/ch02-springidol-TwoSaxophonesApp        # With inner beans Duke and Ke
 $ scripts/ch02-springidol-HankApp                 # Hank, one man band, showing collection wiring
 $ scripts/ch02-springidol-HankMapApp              # Hank with a Map wiring
 $ scripts/ch02-springidol-HankPropertiesApp       # Hank with Properties wiring
+$ scripts/ch02-autowiring-ByNameApp               # Autowiring by name
 </pre>
 
-My bookmark: ch02 page 56
+My bookmark: ch02 page 60
