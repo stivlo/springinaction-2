@@ -18,7 +18,8 @@ $ scripts/ch02-springidol-PoeticJugglerApp        # Bean Creation with construct
 $ scripts/ch02-springidol-KennyApp                # Bean Creation with setter injection
 $ scripts/ch02-springidol-KennyPianoApp           # Same Bean playing a different instrument
 $ scripts/ch02-springidol-KennySharingWithDukeApp # Showing that there is only one Saxophone
-$ scripts/ch02-springidol-TwoSaxophones           # With inner beans Duke and Kenny have a private Saxophone
+$ scripts/ch02-springidol-TwoSaxophonesApp        # With inner beans Duke and Kenny have a private Saxophone
+$ scripts/ch02-springidol-HankApp                 # Hank, one man band, showing collection wiring
 </pre>
 
 My bookmark: ch02 page 52
