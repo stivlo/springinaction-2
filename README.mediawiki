@@ -5,16 +5,24 @@ Original source code can be found at http://www.manning.com/walls3/ -- Here ther
 examples than in the original source code, since I'd like to really understand how this stuff works, even if it slow
 down a lot my reading pace.  Dependencies are downloaded with Maven. 
 
-To run the examples:
+To run the examples, first do a "mvn:compile"
 
-<pre style="color:blue">
-$ mvn compile
+=== Chapter 1 - Springing into action ===
 
+<p>An overview of Dependency Injection and AOP</p>
+
+<pre>
 $ scripts/ch01-hello-HelloApp                     # Injecting properties
 $ scripts/ch01-knight-KnightApp                   # Injecting beans
 $ scripts/ch01-mistrel-KnightWithMinstrelApp      # The Knight has to call the minstrel
 $ scripts/ch01-mistrel-KnightAndMinstrelApp       # Aspect oriented programming
+</pre>
 
+=== Chapter 2 - Basic bean wiring ===
+
+<p>Dependency injection</p>
+
+<pre>
 $ scripts/ch02-springidol-DukeApp                 # Simple Bean Creation
 $ scripts/ch02-springidol-Duke15App               # Bean Creation with constructor args
 $ scripts/ch02-springidol-PoeticJugglerApp        # Bean Creation with constructor refs
@@ -28,4 +36,18 @@ $ scripts/ch02-springidol-HankPropertiesApp       # Hank with Properties wiring
 $ scripts/ch02-autowiring-ByNameApp               # Autowiring by name
 </pre>
 
-My bookmark: ch02 page 60
+=== Chapter 3 - Advanced bean wiring ===
+
+<p>About some less common techniques to perform DI, skipped</p>
+
+=== Chapter 4 - Advising beans ===
+
+<p>Aspect Oriented Programming (AOP)</p>
+
+The following example is broken, anyway, I'm now off to read Spring Recipes, because I've read all the basics here, and the advanced topics changed quite a bit in Spring 3.0, while this book is about Spring 2.0
+
+<pre>
+$ scripts/ch04-DukeAndAudienceApp                 # Shows MethodBeforeAdvice, AfterReturningAdvice and ThrowsAdvice
+</pre>
+
+

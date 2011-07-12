@@ -18,6 +18,7 @@ http://mvnrepository.com/artifact/org.springframework
     </properties>
     
     <repositories>
+        
         <repository>
             <id>obliquid</id>
             <name>Obliquid Repository</name>
@@ -29,6 +30,7 @@ http://mvnrepository.com/artifact/org.springframework
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        
     </repositories>
     
     <pluginRepositories>
@@ -60,10 +62,16 @@ http://mvnrepository.com/artifact/org.springframework
             <version>1.8.5</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <version>${org.springframework.version}</version>
+        </dependency>
         
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
+            <artifactId>spring-core</artifactId> 
             <version>${org.springframework.version}</version>
         </dependency>
         
@@ -75,11 +83,11 @@ http://mvnrepository.com/artifact/org.springframework
         
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
+            <artifactId>spring-aop</artifactId> 
             <version>${org.springframework.version}</version>
         </dependency>
-
-         <dependency>
+        
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${org.springframework.version}</version>
@@ -136,3 +144,4 @@ http://mvnrepository.com/artifact/org.springframework
     </build>
     
 </project>
+
